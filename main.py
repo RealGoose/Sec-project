@@ -5,7 +5,7 @@ def start():
     print("Welcome!\n")
 
     print("Choices: \n-h   Help Menu\n-l   Show change logs\n-sp  Scan the host for open ports\n-sv  Scan the host for vulnerabilities\n-bp  Scan the host for Best Practices violations\n-un  Uninstall used packages and modules")
-    choice = input("")
+    choice = input("\n")
     
     if (choice == "-h"):
         help()
@@ -31,7 +31,14 @@ def start():
 
 
 def help():
-    print("You chose the help menu")
+    print("You chose the help menu, let me explain what this program is about and how it works :)\n")
+    print("-h   Will call this menu which will explain what each of the options do and how to access the results.")
+    print("-l   Will show logs from the run commands and how to access them")
+    print("-sp  Will scan the host for open ports using nmap and will display them on your screen. See what open ports mean here: https://en.wikipedia.org/wiki/Open_port")
+    print("-sv  Will scan the host using the nmap vuln scanner. This scan shows basic vulnerabilities and the results will be outputted to a separate file.")
+    print("-bp  Will scan for Best Practices on your computer. These include default and unsecure passwords, disabled firewall, outdated software, etc.")
+    print("-un  Will uninstall the modules which were installed to conduct scans on the machine. Includes nmap, pip, etc.")
+
 
 def logs():
     print("You chose #2")
