@@ -7,6 +7,6 @@ wish to proceed with. These will include Port Scanning on your host, Basic Malwa
 The program will install all needed libraries and modules in order to run the program to make it as easy as I can. 
 
 This program will serve as an application to several internships and workshops since this application will demonstrate my development and computer security skills.
-This project is still in the works and the code seen here is likely not it's final version.
+This project is still in the works and the code seen here is likely not it's final version. At the moment this program is made to run on linux but Windows version is coming soon(perhaps written in another language).
 
 Have a Good Day! :)
